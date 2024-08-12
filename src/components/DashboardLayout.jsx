@@ -1,9 +1,7 @@
 import { Link } from "@tanstack/react-router";
-import { useState } from "react";
 import LoginForm from "./LoginForm";
 
 function DashboardLayout({ children }) {
-  const [openLoginDialog, setOpenLoginDialog] = useState(false);
   return (
     <div className="grid h-screen grid-cols-12">
       <aside className="min-h-screen col-span-2 p-2 shadow-md">
